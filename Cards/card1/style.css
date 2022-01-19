@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+margin:2rem  8rem;
+
+}
+.card
+{
+    height: 200px;
+    width:350px;
+}
+
+.card-content
+{
+    padding: 1rem;
+}
+.card-outline
+{
+    border: 2px solid white; 
+    box-shadow: 2px 2px 4px rgb(194, 191, 191);
+}
+.card-first-square 
+{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+.card-first-square:hover
+{
+    background-color: rgb(250, 246, 246); 
+}
+.card-image img
+{
+    display: block;
+    height:20vh;
+    width:140px;
+    border-radius: 2px;
+    
+}
+.card-details
+{
+   display: flex;
+   flex-direction: column;
+   
+}
+.card-title
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.card-subtitle
+{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.pt-05
+{
+    padding:0.2rem
+}
+.font-gray
+{
+    color: gray;
+}
+.card-action
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mt-01
+{
+    margin-top:1.5rem ;
+}
+.action-button
+{
+    margin: 10px;
+}
+.ml-01
+{
+    margin-left: 1rem;
+}
+.btn
+{
+    font-size: 1rem;
+    max-width:140px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary
+{
+    color:rgb(159, 79, 216);
+    border:0; 
+}
+.action-icons
+{   font-size: 1.34rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:10rem;
+    cursor: pointer;
+}
+/* .fas:hover
+{   height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: rgb(212, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+} */
+.btn:hover
+{
+    background-color: rgb(250, 246, 246);
+}

@@ -64,7 +64,12 @@ margin:2rem  8rem;
 .card-subtitle
 {
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 500;
+}
+.card-para
+{
+    font-size: 14px;
+
 }
 .pt-05
 {
@@ -107,6 +112,21 @@ margin:2rem  8rem;
     color:rgb(159, 79, 216);
     border:0; 
 }
+.btn-secondary
+{
+    color:rgb(44, 41, 204);
+    border:none; 
+}
+
+.icon-button
+{
+    width:10rem;
+    background: transparent;
+    border: none;
+    font-size: 1.34rem;
+    color:rgb(146, 139, 139);
+    
+}
 .action-icons
 {   font-size: 1.34rem;
     display: flex;
@@ -129,4 +149,65 @@ margin:2rem  8rem;
 .btn:hover
 {
     background-color: rgb(250, 246, 246);
+}
+
+/* BASIC CARD DESIGN STARTS HERE */
+ .card-lg
+{
+    height:400px;
+    width:350px;
+}
+.card-image-lg img{
+    height:190px;
+    width:100%;
+    border-radius: 5px;
+   
+}
+.card-content-col
+{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.mt-02
+{
+    margin-top: 0.8rem;
+}
+/* third card  TEXT ON IMAGE*/
+.card-md
+{
+   height:350px;
+   width:350px;
+}
+.card-detail-on-img{
+  top:140px;
+  position: absolute;
+}
+card-position
+{
+    position: relative;
+}
+.font-white
+{
+    color: rgb(211, 207, 207);
+}
+/*  FOURTHCARD  WITH HEADER*/
+.ml-0p5
+{
+    margin-left: 0.5rem;
+}
+ .card-image-lg.image-wradius img{
+     border-radius: 0px;
+ }
+/* card with only icons */
+.card-action-position
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.action-icons.icon-fixed
+{
+    position: fixed;
 }

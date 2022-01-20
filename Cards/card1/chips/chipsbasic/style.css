@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+:root{
+    --color--gray: rgb(214, 210, 210);
+    --chip--bgcolor:#f0ecec;
+    --chip-white-bg:whitesmoke;
+}
+
+.chips-basic
+{
+    max-width: 950px;
+    background-color:var(--color--gray);
+    margin:auto;
+    height:80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.ml-1
+{
+   margin-left: 1rem;
+}
+.mt-2
+{
+    margin-top: 2rem;
+}
+.chip-label
+{
+    font-size: 0.8rem;
+    font-weight: 200;
+    position: absolute;
+    top:2px;
+    left:2px;
+}
+.chip-with-icon
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width:100px;
+  padding: 8px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: var(--chip--bgcolor);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.icon
+{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: var(--color--gray);
+    text-align: center;
+}
+input{
+    background: transparent;
+    border:none;
+}
+/* small chip with felx wrap */
+.chips-basic.chip-small
+{
+    width:500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chip-name-only
+{
+  width:80px;
+  padding: 5px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: var(--chip-white-bg);
+  text-align: center;
+  /* margin-top: 0.5rem; */
+}
+/* chip three */
+.bg-primary
+{
+    background-color: blue;
+    color: white;
+}
+/* basic chips with color */
+.bg-pink
+{
+    background-color: pink;
+    color:white;
+}
+.bg-green
+{
+    background-color: green;
+    color:white;
+}
+/* chips stack */
+.chip-stack
+{
+    height:400px;
+    width:200px;
+    background-color: var(--color--gray);
+    align-items: center;
+}
+.chip-name-only.chip-vertical
+{
+  width:150px;
+
+}

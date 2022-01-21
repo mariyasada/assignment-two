@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+body{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --font-color:blue;
+}
+.container-btn{
+    max-width:400px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container .text-content
+{
+    font-size: 3rem;
+    color:var(--font-color);
+    margin:auto;
+    position: relative;
+}
+
+.mt-2
+{
+    margin-top: 2rem;
+}
+.badge
+{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 1.5rem;
+    color:blue;
+    font-weight: bold;
+    position: absolute;
+    top:18px;
+    left:260px;
+}
+/* second badge */
+.badge.badge-large
+{
+    height:40px;
+    width:40px;
+    background-color: turquoise;
+    font-size: 2rem;
+    text-align: center;
+    padding:0.5rem;
+    position: absolute;
+    top:60px;
+}
+/* third badge */
+.badge.badge-with-btn
+{
+    position: absolute;
+    top:125px;
+    left:33rem;
+    background: rgb(214, 34, 205);
+}
+.btn
+{
+    display: inline-block;
+    max-width:120px;
+    padding: 0.8rem;
+    background-color: yellowgreen;
+    border:none;
+    color:white;
+    box-shadow: 2px 2px 4px rgb(206, 233, 152);
+    border-radius: 2px;
+}
+.btn.btn-white
+{
+    max-width:110px;
+    color:yellowgreen;
+    background-color: white;
+    padding:10px;
+}
+.badge.badge-btn-right
+{
+    position: absolute;
+    top:185px;
+    left:39rem;
+    background: rgb(185, 179, 185);
+}
+/* last badge */
+.fas
+{
+    font-size: 3rem;
+    /* margin-left:-25px; */
+    align-self: center;
+    justify-self: end;
+    color:rgb(163, 19, 163);
+}
+.badge.badge-bell
+{
+    position: absolute;
+    top:245px;
+    left:39rem;
+    background: rgb(236, 147, 181);
+}

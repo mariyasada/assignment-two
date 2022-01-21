@@ -27,6 +27,7 @@ html{
     background-color: rgb(238, 188, 188);
     margin:auto;
     position: relative;
+    overflow: scroll;
     
 }
 .mt-2
@@ -43,8 +44,13 @@ html{
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* position: absolute; */
+    
+}
+.text-content.text-absolute
+{
     position: absolute;
-    top:200px;
+    top:300px;
     left:100px;
 }
 .ml-2
@@ -78,15 +84,18 @@ html{
 .text-sticky
 {
     position: sticky;
+    position: -webkit-sticky;
     /* bottom:50rem; */
-    top:500rem;
-    left:2rem;
+    /* top:500rem;
+    left:2rem; */
+    top:40px;
 }
 .text-stacked
 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    /* position: absolute; */
     /* margin-top: 1.5rem; */
     /* position: relative; */
 }
@@ -95,4 +104,16 @@ html{
    position: absolute;
    bottom:5px;
    right:18px;
+}
+/*  fixed positioning */
+.text-content.text-fixed
+{
+    
+    position:fixed;
+    bottom: 0px;
+    right:0px;
+}
+.txt
+{
+    font-size: 6rem;
 }

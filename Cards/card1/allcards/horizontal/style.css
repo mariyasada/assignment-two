@@ -211,3 +211,8 @@ card-position
 {
     position: fixed;
 }
+.card-first-square.card-reverse 
+{
+    display: flex;
+    flex-direction: column-reverse;
+}

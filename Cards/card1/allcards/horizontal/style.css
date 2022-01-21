@@ -123,6 +123,7 @@ margin:2rem  8rem;
     width:10rem;
     background: transparent;
     border: none;
+    cursor: pointer;
     font-size: 1.34rem;
     color:rgb(146, 139, 139);
     
@@ -135,7 +136,7 @@ margin:2rem  8rem;
     width:10rem;
     cursor: pointer;
 }
-/* .fas:hover
+/* .icon-button:hover
 {   height:40px;
     width:40px;
     border-radius: 50%;
@@ -156,6 +157,7 @@ margin:2rem  8rem;
 {
     height:400px;
     width:350px;
+    border-radius:10px;
 }
 .card-image-lg img{
     height:190px;

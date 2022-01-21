@@ -8,7 +8,7 @@
 }
 body
 {
-    font-family: 'Hind', sans-serif;
+font-family: 'Hind', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
@@ -202,6 +202,11 @@ card-position
  .card-image-lg.image-wradius img{
      border-radius: 0px;
  }
+
+ .card-first-square .card-reverse{
+     flex-direction: row-reverse;
+     justify-content: flex-end;
+ }
 /* card with only icons */
 .card-action-position
 {
@@ -213,7 +218,7 @@ card-position
 {
     position: fixed;
 }
-.card-first-square.card-reverse 
+.card-reverse 
 {
     display: flex;
     flex-direction: column-reverse;

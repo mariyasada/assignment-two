@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    margin:auto;
+    text-align: center;
+    color: var(--header-bg-color);
+}
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* position: relative; */
+}
+:root{
+    --header-bg-color: rgb(39, 170, 137);
+    --font-color:white;
+}
+.header-container
+{
+    max-width:950px;
+    line-height:50px;
+    margin:auto;
+    background-color: var(--header-bg-color);
+    color:var(--font-color);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* align-items: flex-start; */
+
+}
+.header-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mt-2
+{
+    margin-top: 2rem;
+}
+.ml-2
+{
+    margin-left: 2rem;
+}
+.ml-4
+{
+    margin-left: 4rem;
+}
+.mr-2
+{
+    margin-right: 2rem;
+}
+.header-icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    width:20rem;
+}
+
+h2:hover{
+    background-color: whitesmoke;
+    color: var(--header-bg-color);
+    height: 45px;
+    width: 45px;
+    /* justify-content: center; */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.4rem;
+    /* left:-4px; */
+   position: relative;
+}
+h2:nth-child(1):hover{
+    left:-10px;
+}
+
+/* SECOND HEADER CSS short header*/
+.header-icons.icon-last
+{
+    justify-self: flex-end;
+    width:9rem;
+}
+/* THIRD HEADER CSS collapsed header */
+.header-container.header-sml
+{
+    max-width:150px;
+    line-height: 50px;
+    border-bottom-right-radius: 20px;
+}
+/* fourt header css  prominent*/
+.header-container.header-prominent
+{
+    height: 150px;
+    position: relative;
+    align-items: flex-start;
+     padding:2rem;    
+}
+.header-name-down
+{
+    position: absolute;
+    bottom:0px;
+    left:120px;
+    /* color:black; */
+}
+/* prominet and dense header */
+.header-container.header-dense
+{
+    height: 110px;
+    position: relative;
+    align-items: flex-start;
+    padding:2rem;    
+}
+/* fixed header */
+.header-container.header-fixed
+{
+    width:800px;
+    position: fixed;
+    height:130px;
+    left:200px;
+    /* margin:  auto; */
+}
+.header-container.header-dense-last
+{
+    height: 70px;
+}

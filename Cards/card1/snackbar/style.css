@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+body{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    position: relative;
+}
+.container
+{
+    max-width: 950px;
+    height: 90vh;
+    background-color: rgb(238, 188, 188);
+    margin:auto;
+    position: relative;
+    
+}
+.mt-2
+{
+    margin-top: 2rem;
+}
+.text-content
+{
+    height:8rem;
+    width:50rem;
+    background-color:rgb(151, 183, 184);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px purple;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:200px;
+    left:100px;
+}
+.ml-2
+{
+    margin-left:2rem;
+}
+.text{
+    font-size: 2rem;
+    /* color:rgb(145, 65, 182); */
+    color:white;
+    text-shadow: 2px 2px 3px rgb(145, 65, 182);
+}
+.btn
+{
+    width:100px;
+    font-size: 1.8rem;
+    background: transparent;
+    border: none;
+    color:rgb(145, 65, 182);
+    align-self: center;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 3px white; */
+}
+.fas
+{
+    font-size: 2rem;
+    align-self: center;
+    color:white;
+    text-shadow: 2px 2px 3px rgb(145, 65, 182);
+}
+.text-sticky
+{
+    position: sticky;
+    /* bottom:50rem; */
+    top:500rem;
+    left:2rem;
+}
+.text-stacked
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* margin-top: 1.5rem; */
+    /* position: relative; */
+}
+.stacked{
+   margin-right:0;
+   position: absolute;
+   bottom:5px;
+   right:18px;
+}

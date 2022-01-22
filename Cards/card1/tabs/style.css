@@ -40,7 +40,7 @@ html{
     font-size: 2rem;
     margin: 2rem;
     border: none;
-   outline: none;
+    outline: none;
    cursor: pointer;
    background-color: transparent;
    transition: 1s;
@@ -50,7 +50,7 @@ html{
     color: black;
 }
 .tab-container button:active{
-    border-bottom: 10px solid red;
+    border: 2rem solid rgb(214, 35, 35);
 }
 
 

@@ -68,6 +68,10 @@ margin:2rem  8rem;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    
+}
+.mt-3p5
+{
     margin-top: 3.5rem;
 }
 .btn
@@ -80,9 +84,9 @@ margin:2rem  8rem;
     font-weight: 700;
 }
 /* second dialogue box css starts */
-.dialogue-card .dialogue-card-lg
+.dialogue-card.dialogue-card-lg
 {
-    height:auto;
+    height:26rem;
     max-width: 300px;
     
 }
@@ -93,7 +97,6 @@ margin:2rem  8rem;
 .option-list{
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .option-list li{
@@ -105,11 +108,17 @@ margin:2rem  8rem;
 input[type=radio] {
     width: 17px;
     height: 17px;
-
+    margin-right: 20px;
 } 
+   .list{
+   display: flex;
+   gap:20px;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-left: 20px;
    
+   }
     
-}
 
 .padd-1
 {

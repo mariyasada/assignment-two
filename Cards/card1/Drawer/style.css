@@ -8,6 +8,7 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 *
@@ -23,18 +24,50 @@ html{
     --card-bg-color:white;
     --card-title-color:rgb(148, 13, 148);
 }
+.drawer-component
+{
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    background: white;
+    margin: auto;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.drawer-header
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header{
+    line-height: 60px;
+    max-width:inherit;
+    background-color: var(--card-title-color);
+    font-size: 2.6rem;
+    color: white;
+}
+.pl-2
+{
+    padding-left: 2rem;
+}
 .card
 {
-    margin: auto;
+    /* margin: auto; */
     height:300px;
     width:300px;
     background-color: var(--card-bg-color);
-    border:2px solid white;
-    box-shadow: 2px 2px 4px rgb(204, 202, 202);
     display:flex;
     flex-direction: column;
     flex-wrap: nowrap;
     overflow: scroll;
+    overflow-x: hidden;
+}
+.outline
+{
+    border:2px solid white;
+    box-shadow: 2px 2px 4px rgb(204, 202, 202);
 }
 .mt-2
 {
@@ -95,4 +128,28 @@ html{
     color:white;
   }
    */
-  
+   .label
+   {
+       font-size: 1.5rem;
+       color:gray;
+       margin-top: 0.3rem;
+   }
+
+   /* scrollbar css */
+   ::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 2px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #9f19dd; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  .content
+  {
+      font-size: 1.5rem;
+  }

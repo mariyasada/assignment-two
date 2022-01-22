@@ -28,6 +28,12 @@ body{
     --header-bg-color: rgb(39, 170, 137);
     --font-color:white;
 }
+.container-of-all
+{
+    max-height:80vh;
+    max-width:950px;
+    margin:2rem auto;
+}
 .header-container
 {
     max-width:950px;
@@ -75,6 +81,15 @@ body{
     /* position: fixed; */
     width:20rem;
 }
+.header-name-none, 
+.icon-none
+{
+    display:none;
+}
+/* .icon-none
+{
+
+} */
 
 h2:hover{
     background-color: whitesmoke;

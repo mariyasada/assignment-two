@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+body{
+    font-family: 'Heebo', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --card-bg-color:white;
+    --card-title-color:rgb(148, 13, 148);
+}
+.tab-container
+{
+    height:10rem;
+    max-width:100%;
+    background-color: rgb(245, 236, 241);
+    margin: 2rem auto;
+    border:2px solid rgb(214, 42, 214);
+    border-radius: 20px;
+    text-align: center;
+}
+.btn
+{
+    width:10rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    margin: 2rem;
+    border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: transparent;
+   transition: 1s;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.tab-container button:active{
+    border-bottom: 10px solid red;
+}
+
+
+  .details
+  {
+      border:1px solid blue;
+      display: none;
+     
+      padding:6px;
+      height: 200px;
+      width:300px;
+      margin: auto;
+  }
+  h2{
+      font-size: 3rem;
+      color:blue;
+  }
+  p{
+      font-size: 2.7rem;
+  }

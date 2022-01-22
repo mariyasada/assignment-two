@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Cards/card1/tabs/style.css">
+    <title>tabs</title>
+</head>
+<body>
+    <div class="tab-container">
+        <!-- <button class="btn btn-tabs"  onclick="display(event,'january')">January</button>
+        <button class="btn btn-tabs"  onclick="display(event,'june')">june</button>
+        <button class="btn btn-tabs"  onclick="display(event,'august')">August</button>
+        <button class="btn btn-tabs" onclick="display(event,'october')">october</button> -->
+        <button class="btn btn-tabs"  id="january">January</button>
+        <button class="btn btn-tabs"  id="june" >june</button>
+        <button class="btn btn-tabs"  id="aug" >August</button>
+        <button class="btn btn-tabs" id="october">october</button>
+    </div>
+
+    <!--  this is content display on page when we clicked on tabs -->
+
+    <div id="january" class="details">
+        <h2> January</h2>
+        <p>Hi,  NEOG's new batch starts</p>
+    </div>
+
+    <div id="june" class="details">
+        <h2> JUNE</h2>
+        <p>Hi, NEOG's new batch GOING TO ENDS</p>
+    </div>
+
+    <div id="august" class="details">
+        <h2>August </h2>
+        <p>Hi,August is a month when NEOG announces the next slot or batch.</p>
+    </div>
+
+    <div id="october" class="details">
+        <h2> october</h2>
+        <p>Hi, next batch's interview going to take place</p>
+    </div>
+
+
+    <script src="script.js">
+    // function display(event,monthName)
+    // {
+    //     let details= document.querySelectorAll('.details');
+    //     let btnTabs = document.querySelectorAll('.btn-tabs');
+
+    //     // not displaying block
+    //     for(let i=0;i<details.length;i++)
+    //     {
+    //         details[i].style.display="none";
+    //     }
+    //     // removing active to blank class
+    //     for(let i=0; i<btnTabs.length;i++)
+    //     {
+    //        btnTabs[i].className = btnTabs[i].className.replace('active',"");
+    //     }
+    //     //  displaying block whicheevr btn clicked
+    //     document.getElementById(monthName).style.display="block";
+    //     event.currentTarget.className +="active";
+    // }
+
+
+
+    </script>
+
+</body>
+</html>

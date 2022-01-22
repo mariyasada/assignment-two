@@ -23,6 +23,7 @@ margin:2rem  8rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap:20px;
 }
 .card
 {
@@ -214,7 +215,7 @@ margin:2rem  8rem;
     display: flex;
     justify-content: flex-end;
 }
-.action-icons.icon-fixed
+.action-icons .icon-fixed
 {
     position: fixed;
 }

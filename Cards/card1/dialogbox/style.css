@@ -124,3 +124,29 @@ input[type=radio] {
 {
     padding: 1rem;
 }
+/* third dialogue box */
+.decrp-none
+{
+    display: none;
+}
+
+.circle-detail
+{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    color: var(--hedaer-color);
+    position: absolute;
+    left:30px;
+    color: rgb(121, 116, 116);
+}
+.circle{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-image: url(/Cards/card1/allcards/image/river.jpg);
+   position: relative;
+}
+ li .circle-2
+{
+    background-image: url(https://picsum.photos/100);
+}

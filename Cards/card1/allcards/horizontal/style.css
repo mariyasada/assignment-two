@@ -13,7 +13,7 @@ font-family: 'Lora', serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
-margin:2rem  8rem;
+margin:1rem  3rem;
 
 }
 .card-container
@@ -21,7 +21,7 @@ margin:2rem  8rem;
     width:100%;
     height:100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     gap:20px;
 }
@@ -125,7 +125,7 @@ margin:2rem  8rem;
 
 .btn-primary
 {
-    color:rgb(159, 79, 216);
+    color:rgb(104, 12, 170);
     border:0; 
 }
 .btn-secondary
@@ -161,7 +161,7 @@ margin:2rem  8rem;
 /* BASIC CARD DESIGN STARTS HERE */
  .card-lg
 {
-    height:400px;
+    height:380px;
     width:350px;
     border-radius:10px;
 }
@@ -185,7 +185,7 @@ margin:2rem  8rem;
 /* third card  TEXT ON IMAGE*/
 .card-md
 {
-   height:250px;
+   height:350px;
    width:350px;
 }
 .card-detail-on-img{

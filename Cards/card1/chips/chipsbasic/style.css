@@ -18,6 +18,7 @@ font-family: 'Source Sans Pro', sans-serif;
     --color--gray: rgb(214, 210, 210);
     --chip--bgcolor:#f0ecec;
     --chip-white-bg:whitesmoke;
+    --color-blue:blue;
 }
 .chip-container
 {
@@ -27,10 +28,10 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .chips-basic
 {
-    max-width: 950px;
+    max-width: 600px;
     background-color:var(--color--gray);
     margin:auto;
-    height:100px;
+    max-height:30rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -69,8 +70,9 @@ font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   border-radius: 15px;
-  background-color: var(--chip--bgcolor);
+  background-color: var(--color-blue);
   text-align: center;
+  color: white;
   margin-top: 0.5rem;
   gap:5px;
 }
@@ -81,24 +83,43 @@ font-family: 'Source Sans Pro', sans-serif;
     border-radius: 50%;
     background-color: var(--color--gray);
     text-align: center;
+    color:black;
 }
 input{
     background: transparent;
     border:none;
+    font-size: 1rem;
+    margin-right:0;
+    justify-self: center;
+    align-self: center;
 }
+
+
 /* small chip with felx wrap */
-.chips-basic.chip-small
+ .chip-small
 {
-    width:500px;
-    height: 80px;
+    width:350px;
+    height: 90px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap:20px;
+    padding: 10px;
+}
+.chip-large
+{
+    max-width:700px;
+    height: 90px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap:20px;
+    padding: 10px;
 }
 .chip-name-only
 {
-  width:80px;
+  width:100px;
   padding: 5px;
   height: 30px;
   font-size: 1rem;
@@ -113,6 +134,7 @@ input{
 {
     background-color: blue;
     color: white;
+    /* flex-grow: 2; */
 }
 /* basic chips with color */
 .bg-pink
@@ -124,6 +146,7 @@ input{
 {
     background-color: green;
     color:white;
+    flex-grow: 1;
 }
 /* chips stack */
 .chip-stack

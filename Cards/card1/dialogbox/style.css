@@ -150,3 +150,10 @@ input[type=radio] {
 {
     background-image: url(https://picsum.photos/100);
 }
+.display
+{
+    color:red;
+    left:20px;
+    position: fixed;
+    display: none;
+}

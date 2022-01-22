@@ -21,13 +21,13 @@
 
             <div class="dialogue-btn mt-3p5 ml-01">
                 <button class=" btn btn-action">DISAGREE</button>
-                <button class=" btn btn-action">AGREE</button>
+                <button class=" btn btn-action" id="agree">AGREE</button>
             </div>
 
         </div>
 
 
-        <!-- -------------------------second dialogue box---------------------------------------- -->
+<!-- ----------------------------------------------------------second dialogue box---------------------------------------- -->
             
         <div class="dialogue-card dialogue-card-lg card-outline mt-02">
 
@@ -51,9 +51,10 @@
                 <button class=" btn btn-action">CANCEL</button>
                 <button class=" btn btn-action">OK</button>
             </div>
+            <h2 class="display">Thank you</h2>
 
         </div>
-        <!-- third dialogue box------------------------------------------- -->
+<!-- -----------------------------------------------------------third dialogue box------------------------------------------- -->
 
         <div class="dialogue-card card-outline mt-01">
 
@@ -92,5 +93,19 @@
 
     </div>
 
+    <script>
+      const agreeBtn = document.querySelector("#agree");
+      const dialogueCard = document.querySelector('.dialogue-card');
+      const displayHeader = document.querySelector('.display');
+
+      agreeBtn.addEventListener("click",()=>{
+          dialogueCard.style.display="none";
+          displayHeader.style.display="block";
+      })
+
+      dialogueCard.addEventListener("click",()=>{
+          dialogueCard.style.display="none";
+      })
+    </script>
 </body>
 </html>

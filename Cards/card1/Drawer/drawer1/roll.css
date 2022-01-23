@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
 
+
 body{
     font-family: 'Heebo', sans-serif;
 font-family: 'Hind', sans-serif;
@@ -38,6 +39,10 @@ html{
     overflow:scroll;
     overflow-x: hidden;
 }
+.ml-1
+{
+    margin-left: 1rem;
+}
 .drawer-header
 {
     display: flex;
@@ -51,11 +56,12 @@ html{
     background-color: var(--card-title-color);
     font-size: 2.6rem;
     color: white;
+    display: flex;
+    align-items: center;
+    margin: 0.7rem; 
+     
 }
-.pl-2
-{
-    padding-left: 2rem;
-}
+
 .card
 {
     /* margin: auto; */

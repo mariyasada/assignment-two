@@ -119,14 +119,15 @@
                   const headerOFbars =document.querySelector(".header");
 
                   barsIcon.addEventListener("click",() => {
+                    // let styleofcard = menuCard.style.display;
                       if(menuCard.style.display == "block")
                       {
                         menuCard.style.display ="none";
                       }
-                      if(menuCard.style.display == "none")
-                      {
+                      else{
                         menuCard.style.display ="block";
                       }
+                      // menuCard.style.display = "block"?menuCard.style.display ="none": menuCard.style.display ="block";
                     console.log("clicked");
                   })
 

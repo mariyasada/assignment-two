@@ -38,6 +38,7 @@ html{
     margin: auto;
     overflow:scroll;
     overflow-x: hidden;
+    /* position: relative; */
 }
 .ml-1
 {
@@ -59,7 +60,8 @@ html{
     display: flex;
     align-items: center;
     margin: 0.7rem; 
-     
+    /* position: fixed;  
+    left:302px; */
 }
 
 .card

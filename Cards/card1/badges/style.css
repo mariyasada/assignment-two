@@ -36,10 +36,13 @@ html{
     margin:auto;
     position: relative;
 }
-.text-content{
+.container content-2{
     position: relative;
 }
-
+.container content-3
+{
+    position: relative;
+}
 .mt-2
 {
     margin-top: 2rem;

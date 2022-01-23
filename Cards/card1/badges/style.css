@@ -36,6 +36,9 @@ html{
     margin:auto;
     position: relative;
 }
+.text-content{
+    position: relative;
+}
 
 .mt-2
 {

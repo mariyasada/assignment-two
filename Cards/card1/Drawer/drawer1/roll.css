@@ -73,6 +73,7 @@ html{
     flex-wrap: nowrap;
     overflow: scroll;
     overflow-x: hidden;
+    
 }
 .outline
 {
@@ -100,6 +101,15 @@ html{
   .drawer-icons
   {
       font-size: 2rem;
+  }
+  .header.btn-bar.fas
+  {
+      font-size: 7rem;
+      padding: 1.3rem;
+      color: white;
+      background: purple;
+      border: none;
+      
   }
   ul li a{
       text-decoration: none;
@@ -162,4 +172,8 @@ html{
   .content
   {
       font-size: 1.5rem;
+  }
+  #menu-card
+  {
+      display: block;
   }

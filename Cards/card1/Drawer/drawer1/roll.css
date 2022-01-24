@@ -51,6 +51,8 @@ html{
     /* flex-wrap: wrap; */
     max-width:915px;
 }
+
+
 .header{
     line-height: 60px;
     max-width:inherit;

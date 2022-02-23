@@ -1,32 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
-
-
-body{
-    font-family: 'Heebo', sans-serif;
-font-family: 'Hind', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Hind:wght@300&family=Lora&family=Nunito+Sans:wght@600&family=Open+Sans+Condensed:wght@700&family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap");
+body {
+    font-family: "Heebo", sans-serif;
+    font-family: "Hind", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-*
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-:root{
-    --card-bg-color:white;
-    --card-title-color:rgb(148, 13, 148);
+
+:root {
+    --card-bg-color: white;
+    --card-title-color: rgb(148, 13, 148);
 }
-.drawer-component
-{
+
+.drawer-component {
     height: 300px;
     width: 90%;
     /* display: grid;
@@ -36,108 +34,113 @@ html{
     flex-wrap: wrap;
     background: white;
     margin: auto;
-    overflow:scroll;
+    overflow: scroll;
     overflow-x: hidden;
     /* position: relative; */
 }
-.ml-1
-{
+
+.ml-1 {
     margin-left: 1rem;
 }
-.drawer-header
-{
+
+.drawer-header {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-    max-width:915px;
+    max-width: 915px;
 }
 
-
-.header{
+.header {
     line-height: 60px;
-    max-width:inherit;
+    max-width: inherit;
     background-color: var(--card-title-color);
     font-size: 2.6rem;
     color: white;
     display: flex;
     align-items: center;
-    margin: 0.7rem; 
+    margin: 0.7rem;
     /* position: fixed;  
     left:302px; */
 }
 
-.card
-{
+#menu-card .card {
+    display: none;
+}
+
+.card {
     /* margin: auto; */
-    height:300px;
-    width:300px;
+    height: 300px;
+    width: 300px;
     background-color: var(--card-bg-color);
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     overflow: scroll;
     overflow-x: hidden;
-    
 }
-.outline
-{
-    border:2px solid white;
+
+.outline {
+    border: 2px solid white;
     box-shadow: 2px 2px 4px rgb(204, 202, 202);
 }
-.mt-2
-{
-    margin-top: 2rem;;
+
+.mt-2 {
+    margin-top: 2rem;
 }
-.pl-1
-{
+
+.pl-1 {
     padding: 1rem;
 }
-.header-content .title{
-  font-size: 2.5rem;
-  font-weight: 700;
-  color:var(--card-title-color);
+
+.header-content .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--card-title-color);
 }
-.header-content .subtitle{
+
+.header-content .subtitle {
     font-size: 1.6rem;
     font-weight: 400;
-    color:var(--card-title-color);
-  }
-  .drawer-icons
-  {
-      font-size: 2rem;
-  }
-  .header.btn-bar.fas
-  {
-      font-size: 7rem;
-      padding: 1.3rem;
-      color: white;
-      background: purple;
-      border: none;
-      
-  }
-  ul li a{
-      text-decoration: none;
-      color:var(--card-title-color);
-      display: flex;
-      align-items: center;
-      margin: 0.7rem;  
-  }
-  ul li span{
-      margin-left: 1rem;
-  }
-  ul li:hover
-  {
+    color: var(--card-title-color);
+}
 
+.drawer-icons {
+    font-size: 2rem;
+}
+
+.header.btn-bar.fas {
+    font-size: 7rem;
+    padding: 1.3rem;
+    color: white;
+    background: purple;
+    border: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--card-title-color);
+    display: flex;
+    align-items: center;
+    margin: 0.7rem;
+}
+
+ul li span {
+    margin-left: 1rem;
+}
+
+ul li:hover {
     background-color: rgb(76, 153, 240);
     border-radius: 4px;
-    line-height:30px;
+    line-height: 30px;
     font-size: 2rem;
-  }
-  ul li a:hover{
-      color:white;
-  }
-  
-  /* .subtitle:hover{
+}
+
+ul li a:hover {
+    color: white;
+}
+
+
+/* .subtitle:hover{
     background-color: rgb(76, 153, 240);
     border-radius: 4px;
     line-height:30px;
@@ -152,32 +155,39 @@ html{
     color:white;
   }
    */
-   .label
-   {
-       font-size: 1.5rem;
-       color:gray;
-       margin-top: 0.3rem;
-   }
 
-   /* scrollbar css */
-   ::-webkit-scrollbar {
+.label {
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 0.3rem;
+}
+
+
+/* scrollbar css */
+
+::-webkit-scrollbar {
     width: 6px;
     border-radius: 2px;
-  }
-  /* Track */
+}
+
+
+/* Track */
+
 ::-webkit-scrollbar-track {
-    background: #9f19dd; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: white; 
-  }
-  .content
-  {
-      font-size: 1.5rem;
-  }
-  #menu-card
-  {
-      display: block;
-  }
+    background: #9f19dd;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+.content {
+    font-size: 1.5rem;
+}
+
+#menu-card {
+    display: block;
+}
